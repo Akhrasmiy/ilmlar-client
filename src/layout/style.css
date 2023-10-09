@@ -1,0 +1,29 @@
+.Nav{
+  width: 25.5vw;
+  background: linear-gradient(#564282, #826A91);
+  border-radius: 50px;
+}
+/* .studentNavbar-box{
+  width: 25.5vw;
+  background: linear-gradient(#564282, #826A91);
+  border-radius: 50px;
+} */
+.teacher_nav{
+  background: linear-gradient(#564282, #826A91);
+  border-radius: 50px;
+}
+.app-content{
+  display: flex;
+  gap: 19px;
+}
+.teacher .main_lesson{
+  display: none;
+  }
+@media only  screen and (max-width:540px){
+  .teacherHomePage{
+    width: 100% !important;
+  }
+  .teacher .main_lesson{
+    display: block;
+    }
+}

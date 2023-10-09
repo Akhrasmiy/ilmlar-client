@@ -1,0 +1,462 @@
+.Nav {
+  width: 25.5vw;
+  background: linear-gradient(#564282, #826a91);
+  border-radius: 50px;
+}
+
+.teacher_nav {
+  background: linear-gradient(#564282, #826a91);
+  border-radius: 50px;
+}
+
+.w100 {
+  width: 44vw;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.app-content {
+  height: 100%;
+  display: flex;
+  gap: 19px;
+}
+
+.ionex {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.ionex_header {
+  background: linear-gradient(90.03deg, rgba(0, 10, 255, 0.79) 0.03%, #3d9ffa 40.95%, #9e00ff 89.77%);
+  box-shadow:
+    0px 0px 20px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 95px;
+  height: 70px;
+  color: #fff;
+}
+
+.ionex_logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.ionex_header nav {
+  padding-top: 20px;
+}
+.ionex_header ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.ionex_header ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ionex_header button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  outline: none;
+}
+
+.ionex_hero {
+  display: flex;
+  /* align-items: center; */
+  gap: 100px;
+  padding: 97px 24px 35px 123px;
+}
+
+.ionex-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 0;
+  margin-bottom: 10px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero_logo p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 35px;
+  text-align: center;
+  color: #3545ff;
+}
+
+.hero_img {
+  /* width: 616px; */
+  max-width: 616px;
+  width: 100%;
+  height: 374px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__inner {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel__image {
+  flex: 0 0 25%;
+  width: 100%;
+  height: auto;
+}
+
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px;
+  font-size: 18px;
+}
+
+.carousel__prev {
+  left: 10px;
+}
+
+.carousel__next {
+  right: 10px;
+}
+
+.hero_big_img {
+  width: 100%;
+}
+
+.hero_big_img img {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+}
+
+.hero_text_content {
+  background: linear-gradient(88.31deg, #9e00ff 12.62%, #3c9cfa 46.33%, #3e9efa 68.4%, #3543ff 102.48%);
+  border: 1px solid #000000;
+}
+
+.hero_text_content p {
+  /* font-family: "Inter";
+    font-style: normal; */
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 16px;
+}
+
+.ionex_about_content {
+  padding: 105px 60px 65px 60px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.ionex_about_content_desc {
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.ionex_about_content_desc h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 8px;
+  color: #4d46fe;
+}
+.ionex_about_content_desc p {
+  text-align: start;
+}
+
+.mobile--text {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: rgba(51, 0, 255, 0.91);
+}
+
+.bold_class {
+  font-weight: 700;
+}
+
+.ionex_advertise {
+  background: linear-gradient(
+    90.05deg,
+    #5466d9 -1.07%,
+    #64a2f2 29.29%,
+    #9e00ff 76.47%,
+    #3759fe 94.36%,
+    #3d9dfa 103.04%
+  );
+}
+
+.ionex_advertise p {
+  font-family: "Inter";
+  padding: 15px 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_section {
+  padding: 20px 0;
+}
+
+.footer_section p {
+  color: #000;
+  text-align: center;
+}
+
+.desktop-none {
+  display: none;
+}
+
+.desktop-none {
+  object-fit: cover;
+  width: 100%;
+}
+.route-select {
+  border-radius: 20px;
+  background: rgba(47, 65, 229, 0.8);
+  position: absolute;
+  right: 23px;
+  top: 71px;
+  padding: 16px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0.999;
+}
+.route-select div {
+  border-radius: 20px;
+  border: 3px solid #fff;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  max-width: 241px;
+  color: #fff;
+  font-size: 22px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1180px) {
+  .carousel_imgs {
+    overflow-x: hidden;
+  }
+
+  .ionex_hero {
+    padding-left: 60px;
+    padding-right: 0;
+    gap: 50px;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .ionex_about_content_desc {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .ionex_about_content {
+    grid-template-columns: auto;
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .child-1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .child-2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .ionex_about_content img {
+    margin: 0 auto;
+  }
+
+  .ionex_about_content_desc {
+    padding: 0;
+  }
+  .mobile--text {
+    margin-bottom: 31px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ionex_hero {
+    flex-direction: column-reverse;
+  }
+
+  .carousel_imgs {
+    padding-left: 40px;
+  }
+
+  .ionex_about_content {
+    padding: 0px 40px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile--text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .ionex_about_content img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .mobile-none {
+    display: none;
+  }
+
+  .mobile-noneb {
+    display: none;
+  }
+
+  .hero_logo {
+    padding: 0 20px;
+  }
+
+  .hero_logo p {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .ionex_header {
+    padding: 16px 50px;
+  }
+
+  .desktop-none {
+    display: block;
+  }
+
+  .ionex_hero {
+    flex-direction: column-reverse;
+    padding: 0;
+    padding-top: 16px;
+  }
+
+  .carousel_imgs img {
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .caruosel-img-dev img {
+    width: 300px;
+    height: 250px;
+  }
+  .carousel_imgs {
+    margin-top: 43px;
+    margin-bottom: 82px;
+    overflow-x: hidden;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .ionex_about_content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mobile--text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .ionex_about_content_desc p {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .ionex_about_content_desc h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .ionex_advertise p {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .hero_text_content p {
+    padding: 42px 30px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .ionex_header {
+    padding: 16px 20px;
+  }
+  .hero_text_content p {
+    padding: 32px 10px;
+  }
+  .ionex-btn {
+    font-size: 48px;
+    line-height: 97px;
+    max-width: 350px;
+  }
+}

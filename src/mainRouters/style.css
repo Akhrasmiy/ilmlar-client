@@ -1,0 +1,182 @@
+.main-content {
+  padding: 0 20px;
+  background-color: #5b4784;
+  border-radius: 50px;
+  height: 100%;
+}
+
+.main-page {
+  display: flex;
+  gap: 19px;
+}
+
+.sidebar-student-main-wrap {
+  overflow-y: scroll;
+  max-height: 79vh;
+}
+.sidebar-main-wrap_all {
+  overflow-y: scroll;
+  max-height: 79vh;
+}
+@media only screen and (max-width: 540px) {
+  .main-page {
+    display: block;
+    /* height: 100%; */
+  }
+  .courses_list {
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    height: 161px;
+    background-color: #40325d;
+
+    margin-bottom: 10px;
+  }
+  .courses_list img {
+    width: 40% !important;
+    border-radius: 0 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+  }
+}
+.darslar_wrapper {
+  padding: 0 8px;
+  z-index: -1;
+}
+.darslar_wrapper h3 {
+  padding: 14px 71px 10px 71px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+.line {
+  width: 92%;
+  background-color: #aaa;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+.my_subs {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.extra_class {
+  overflow-y: scroll;
+  height: 90vh;
+}
+.my_subs img.teacher_img {
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 13px;
+  height: 130px;
+  border-radius: 50%;
+}
+.my_subs h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+.my_subs p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.my_subs button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #0029ff 0%, rgba(0, 41, 255, 0) 171.25%);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px 18px;
+  margin-bottom: 25px;
+}
+.my_subs_desc,
+.my_subs_desc1,
+.my_subs_desc2 {
+  text-align: start;
+  padding: 0 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.my_subs_desc1,
+.my_subs_desc2 {
+  margin-bottom: 25px;
+}
+.my_subs_desc p {
+  padding: 0;
+  margin: 0;
+}
+.my_subs h4 {
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.my_subs_line {
+  width: 254px;
+  height: 1px;
+  background-color: #ddd;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.courses_list {
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  height: 161px;
+  background-color: #40325d;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.courses_list img {
+  height: 100%;
+  width: 250px;
+  background: url(There-are-lots-of-English-courses-so-you-can-choose-a-trusted-one.png);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.courses_list p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  /* padding: 10px 20px 27px 10px; */
+  /* text-indent: 10px; */
+  text-align: start;
+  /* height: 95%; */
+  overflow-y: scroll;
+}
+.courses_list div {
+  padding-left: 15px;
+}

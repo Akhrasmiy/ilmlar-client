@@ -1,0 +1,351 @@
+.back {
+  position: absolute;
+  top: 22px;
+  left: 27px;
+  background-color: #48386a;
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.second{
+  background-color: #40325d; 
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+ }
+.back ion-icon {
+  color: #fff;
+  font-size: 27px;
+}
+._plus_btn_idk4j_277 {
+  height: 24px;
+  width: 24px;
+  padding: 0;
+}
+.input_file img{
+  border-radius: 20px;
+}
+.kurs_yuklash {
+  position: relative;
+  padding: 0 60px;
+  position: relative;
+}
+.kurs_yuklash h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 29px;
+  margin-bottom: 21px;
+  color: #ffffff;
+}
+
+.input_file {
+  position: relative;
+  color: #fff;
+  width: 140px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: 1.5px solid #ffffff;
+  border-radius: 20px;
+  background-color: #40325d;
+}
+.input_file p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.input_file input {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.video_download_input_desc{
+  padding: 5px 10px;
+  color: #fff;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  border: 1.5px solid #ffffff;
+  border-radius: 20px;  
+  background-color: #40325d;
+  width: 39%;
+}
+.video_download_input_title{
+  padding: 5px 10px;
+  color: #fff;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  border: 1.5px solid #ffffff;
+  border-radius: 20px;  
+  background-color: #40325d;
+  width: 23%;
+}
+.video_download_input::placeholder{
+  color: #ccc;
+}
+
+.input_wrap input,
+.input_wrap textarea {
+  padding: 10px 20px;
+  color: #fff;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  width: 100%;
+  border: 1.5px solid #ffffff;
+  border-radius: 20px;
+  background-color: #40325d;
+}
+.input_wrap textarea {
+  height: 100px;
+}
+.input_wrap {
+  margin-bottom: 20px;
+}
+.input_wrap label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 20px;
+  color: #ffffff;
+}
+.upload_div {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.videos {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  height: 215px;
+  overflow-y: scroll;
+}
+.videos::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.videos::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+.videos::-webkit-scrollbar-thumb {
+  background: #bbb; 
+  width: 50px;
+  border-radius: 10px;
+}
+.videos::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
+.video_download {
+  color: #fff;
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+  border: 1.5px solid #ffffff;
+  border-radius: 20px;
+  background-color: #40325d;
+}
+.video_download p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.down_btn {
+  display: block;
+  background-color: #2d2341;
+  color: #fff;
+  outline: none;
+  border: 1px solid #aaa;
+  padding: 10px 100px;
+  font-size: 24px;
+  border-radius: 20px;
+}
+.plus_btn {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #2d2341;
+  color: #fff;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.plus_btn ion-icon {
+  font-size: 50px;
+  color: #fff;
+}
+.video_download p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.extra_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 25%;
+}
+
+.amount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.btn {
+  font-family: "Inter";
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background: #8300ea;
+  border-radius: 20px;
+  border: 3px solid #4f0190;
+  padding: 12px 24px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.plus_minus{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.free_video_lesson_download {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 5px 100px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #2D2341;
+}
+
+
+/* Modal */
+.free_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.free_modal_content {
+  width: 500px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  position: relative;
+}
+.free_modal_content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  padding: 65px 106px 120px 106px;
+  color: #ffffff;
+}
+.free_modal_wrap {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  position: absolute;
+  bottom: 14px;
+  right: 12px;
+}
+.free_modal_wrap button:first-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  padding: 11px 36px;
+  outline: none;
+  border: none;
+  font-size: 32px;
+  line-height: 39px;
+  background: #f10000;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.free_modal_wrap button:last-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  padding: 11px 36px;
+  outline: none;
+  border: none;
+  font-size: 32px;
+  line-height: 39px;
+  background: #00c744;
+  border-radius: 20px;
+  color: #ffffff;
+}
