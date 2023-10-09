@@ -90,7 +90,7 @@ function NotBoughtCourse() {
           navigate("/student/kurs/olinganlar/" + kursId)
         }
         else{
-          alert("hisongizni toldring")
+          alert("hisongizni to'ldring")
         }
       })
       .catch((error) => {
